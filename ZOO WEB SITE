@@ -1,0 +1,228 @@
+<!Doctype html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Zoo website</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="http://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <!-- header  -->
+    <header>
+        <!-- menu responsive -->
+        
+        <div class="menu_toggle">
+            <span></span>
+        </div>
+
+        <div class="logo">
+            <p><span>Zoo</span>rare</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#cars">Vehicules</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="login_btn">connection</button>
+    </header>
+    <!-- section Acceuil -->
+     
+    <section id="home">
+        <div class="left">
+<h1> zoo  <span> most rare animals </span> </h1>
+            <p></p>
+            <a href="#">see now </a>
+        </div>
+        <div class="right">
+            <img src="pics/Zoo first pic.jpg" alt="">
+        </div>
+    </section>
+
+
+
+
+    <!-- animals section  -->
+
+    <section id="cars">
+        <h1 class="section_title"></h1>
+        <div class="images">
+            <ul>
+                <li class="car">
+                   <div>
+                       <img src="pics/Zoo girafe.jpg" alt="">
+                   </div>
+                   <span> Girafe</span>
+                   <span class="prix"></span>
+  <a href="#">see now</a>
+                </li>
+                <li class="car">
+                    <div>
+      <img src="pics/Zoo lion.jpg" alt="">
+                    </div>
+                    <span>Lion</span>
+                    <span class="prix"></span>
+                    <a href="#">See now</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="pics/Zoo zebra.jpg" alt="">
+                    </div>
+                    <span>Zebra</span>
+                    <span class="prix"></span>
+                    <a href="#">See now</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="pics/Zoo monkey.jpg" alt="">
+                    </div>
+                    <span>Monkey</span>
+                    <span class="prix"></span>
+                    <a href="#">See now</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="pics/Zoo macaws.jpg" alt="">
+                    </div>
+                    <span>Macaws</span>
+                    <span class="prix"></span>
+                    <a href="#">See now</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="pics/Zoo jaguar.jpg" alt="">
+                    </div>
+                    <span>Jaguar</span>
+                    <span class="prix"></span>
+                    <a href="#">See now</a>
+                 </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- section services -->
+
+    <section id="services">
+        <h1 class="section_title"> Our Services</h1>
+        <div class="list_services">
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>individuals 
+                </h3>
+                <p>$20</p>
+                 <a href="#" class="read_more">read more</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>children</h3>
+                <p>$10</p>
+                 <a href="#" class="read_more">read more</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Family </h3>
+                <p>$30</p>
+                 <a href="#" class="read_more">read more</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- section contact -->
+
+    <section id="contact">
+        <h1 class="section_title">our Services</h1>
+        <div class="localisation_contact_div">
+            <div class="localisation">
+                <h3>Notre Adresse</h3>
+                Toulouse
+             <h4>Horaires d'ouverture</h4>
+               <li>lun: 8H-18H</li>
+              <li>mar: 8H-18H</li>
+              <li>mer: 8H-18H</li>
+              <li>jeu: 8H-18H</li>
+              <li>ven: 8H-18H</li>
+              <li>sam: 9H-19H</li>
+              <li>dim: closed</li>
+            
+          
+            </div>
+
+            <div class="form_contact">
+                <h3>send a message</h3>
+                <form action="#">
+                    <input type="text"placeholder="Nom">
+                    <input type="email"placeholder="Adresse Mail">
+                    <input type="text"placeholder="Objet">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </section>
+ 
+
+
+    <script>
+        //menu responsive code JS
+
+        var menu_toggle = document.querySelector('.menu_toggle');
+        var menu = document.querySelector('.menu');
+        var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+        menu_toggle.onclick = function(){
+            menu_toggle.classList.toggle('active');
+            menu_toggle_span.classList.toggle('active');
+            menu.classList.toggle('responsive') ;
+        }
+
+    </script>
+
+
+
+    <script src="http://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+    <header class="header">
+<a href="#" class="logo"> <i class="fas fa-paw"></i> zoo</a>
+
+<nav class="navbar">
+<a href="#home">home</a>
+<a href="#about">about</a>
+<a href="#gallery">gallery</a>
+<a href="#animal">animal</a>
+<a href="#pricing">pricing</a>
+<a href="#contact">contact</a>
+</nav>
+<div class="icons">
+    <div id="login-btn" class="fas fa-user"></div>
+    <div id="menu-btn" class="fas fa-bars"></div>
+</div>
+
+   <!--login form-->
+
+<form action="" class="login-form">
+
+<h3>login form</h3>
+
+<input type="email" placeholder="Enter your email" class="box">
+<input type="password" placeholder="Enter your password" class="box">
+<div class="remenber">
+    <input type="checkbox" name="" id="remenber-me">
+    <label for="remenber-me">remenber-me</label>
+</div>
+<a href="#" class="btn">login</a>
+
+</form>
+
+</header>
+
+
+
+
+</body>
