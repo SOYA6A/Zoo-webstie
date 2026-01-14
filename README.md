@@ -7,3 +7,8 @@ ZooRare est un projet de site web moderne et responsive conçu pour un zoo imagi
 - Menu de Navigation Fluide : Navigation par ancres pour un accès rapide aux sections.
 
 - Menu Hamburger : Menu interactif pour la version mobile.
+- Formulaire de Contact : Section dédiée pour envoyer des messages.
+
+- Section Login : Interface prête pour la connexion utilisateur (pop-up/formulaire).
+
+- Carrousel/Animations : Intégration de Swiper pour une expérience visuelle dynamique.
