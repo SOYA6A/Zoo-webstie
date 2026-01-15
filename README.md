@@ -14,10 +14,10 @@ ZooRare est un projet de site web moderne et responsive conçu pour un zoo imagi
 - Carrousel/Animations : Intégration de Swiper pour une expérience visuelle dynamique.
 
  ## 🖼️ Aperçu des Sections
-Accueil : Une bannière d'introduction avec un appel à l'action.
+- Accueil : Une bannière d'introduction avec un appel à l'action.
 
-Animaux (Véhicules) : Galerie présentant les espèces emblématiques (Lion, Girafe, Jaguar, etc.).
+- Animaux (Véhicules) : Galerie présentant les espèces emblématiques (Lion, Girafe, Jaguar, etc.).
 
-Services : Présentation des tarifs pour les tickets d'entrée.
+- Services : Présentation des tarifs pour les tickets d'entrée.
 
-Contact : Informations pratiques (Adresse à Toulouse, horaires d'ouverture) et formulaire de contact.
+- Contact : Informations pratiques (Adresse à Toulouse, horaires d'ouverture) et formulaire de contact.
